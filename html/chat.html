@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Socket Servers</title>
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="../css/chat.css" type="text/css">
+	
+</head>
+<body>
+	<div id="total-wrapper">
+	
+	<div id="header_wrap">
+
+			<h1 id="banner_header"> Prattle </h1>
+			<div id="logo"> <p> Logo</p> </div>
+	</div>
+
+	<div id="chatroom">	
+	<div id="chat_wrap">
+		<ul id="chat">
+			<li class="odd">Please enter user name first</li>
+			<li class="even">Start Chat</li>
+
+		</ul>
+	</div>
+	<div id="input_div">
+		<!-- <input type="textarea" id="input" placeholder="Enter message here"> -->
+		<textarea rows="3", cols="50" id="input"></textarea>
+		<button id="send_button">Send</button>
+	</div>
+	</div>
+	<div id="users">
+		<h1>Users Currently on: </h1>
+		<ul id='current'>
+		</ul>
+	</div>
+	</div>
+
+	<script src="../js/chat.js"></script>
+</body>
+</html>

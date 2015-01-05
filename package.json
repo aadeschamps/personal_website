@@ -1,0 +1,15 @@
+{
+  "name": "Personal_Website",
+  "version": "0.0.0",
+  "description": "",
+  "main": "chat_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "ws": "~0.6.4"
+  }
+}
